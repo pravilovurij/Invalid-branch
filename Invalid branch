@@ -1,0 +1,6 @@
+case "branch":
+    if len(commandParts) > 1 {
+     repo.branch(commandParts[1])
+    } else {
+     fmt.Println("Invalid branch command. Usage: branch <new_branch>")
+    }
